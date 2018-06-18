@@ -2,7 +2,10 @@
   "name": "instagram-bot",
   "version": "1.0.0",
   "description": "An Instagram bot or whatever.",
-  "main": "index.js",
+  "main": "app.js",
+  "engines": {
+    "node": "8.10.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jkymarsh/instagram-bot/issues"
   },
-  "homepage": "https://github.com/jkymarsh/instagram-bot#readme"
+  "homepage": "https://github.com/jkymarsh/instagram-bot#readme",
+  "dependencies": {
+    "puppeteer": "^1.5.0"
+  }
 }
